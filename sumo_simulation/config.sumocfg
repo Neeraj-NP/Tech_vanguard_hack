@@ -1,0 +1,19 @@
+<configuration>
+    <input>
+        <net-file value="C:/Users/VICTUS/Desktop/Traffic_optimization/sumo_simulation/network.net.xml"/>
+        <route-files value="C:/Users/VICTUS/Desktop/Traffic_optimization/sumo_simulation/routes.rou.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="1000"/>
+    </time>
+
+    <processing>
+        <threads value="2"/> <!-- Adjust this based on your CPU cores -->
+    </processing>
+
+    <report>
+        <verbose value="true"/>
+    </report>
+</configuration>
